@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return jsonify({
-        "message": "Hello from my CI/CD pipeline!",
+        "message": "Hello from my fully automatedCI/CD pipeline!",
         "status": "running",
         "server_time": datetime.datetime.now(datetime.UTC).isoformat()
     })
